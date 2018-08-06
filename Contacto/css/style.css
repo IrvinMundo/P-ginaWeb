@@ -37,7 +37,6 @@ body {
 	font: 12px verdana, arial, sans-serif;
 	color: #94855D;
 	padding-bottom: 10px;
-	padding-top: 31px;
 }
 
 /** layout **/
@@ -46,7 +45,7 @@ body {
 	margin: auto;
 	width: 100%;
     position: relative;
-     background:#F0F0F0;
+    background:#F0F0F0;
 }
 
 #header {
@@ -55,7 +54,9 @@ body {
   left:  243px;
   width: 100%;
   height:250px;
-  background:#2A2A2A;
+  background:#0224B0;
+  /*background:#0224B0;*/
+  display: flex;
 }
 
 #left {
@@ -68,7 +69,8 @@ body {
   height: 152px;
   background: url(images/header_1.png) no-repeat;
   text-align: center;
-  color: #99B959;
+    color: #BE8B06;
+  /*color: #99B959;*/
 }
 
 #logo h1 {
@@ -367,6 +369,7 @@ er {
 }
 #recursoIntegrado{
     background-color: #eee;
+    
 }
 .pub table {
     font-family: arial, sans-serif;
